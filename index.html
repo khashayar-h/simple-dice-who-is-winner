@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Magic Dice!</title>
+    </head>
+    <body class="overflow-hidden d-flex flex-column vh-100 justify-content-center bg-warning">
+        <div class="row p-5 justify-content-center">
+            <h1 class="text-center fw-bold" id="winner-text">Magic Dice !</h1>
+        </div>
+        <div class="row d-flex">
+            <div class="col-md-6 p-5 d-flex flex-column justify-content-center align-items-center">
+                <img src="./images/dice6.png" alt="" id="dice1">
+                <p class="text-center fs-4 fw-bold">Player 1</p>
+            </div>
+            <div class="col-md-6 p-5 d-flex flex-column justify-content-center align-items-center">
+                <img src="./images/dice6.png" alt="" id="dice2">
+                <p class="text-center fs-4 fw-bold">Player 2</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <input type="button" value="Shake" id="button" class="btn btn-primary">
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
